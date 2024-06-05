@@ -1,0 +1,9 @@
+a = ["a", "b", "c"]
+b = [1, 2, 3]
+c = []
+
+for i, s in zip(a, b) :
+  c.append(i)
+  c.append(s)
+
+print(c)
